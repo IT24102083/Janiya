@@ -1,0 +1,109 @@
+[
+  {
+    "id": 2,
+    "username": "janedoe",
+    "password": "password123",
+    "name": "Jane Doe",
+    "email": "jane.doe@example.com",
+    "phone": "123-456-7891",
+    "address": "456 Elm Street, New York, NY 10002",
+    "registrationDate": "2025-02-16T09:45:00Z",
+    "status": "active",
+    "accountType": "customer"
+  },
+  {
+    "id": 3,
+    "username": "michaelsmith",
+    "password": "password123",
+    "name": "Michael Smith",
+    "email": "michael.smith@example.com",
+    "phone": "123-456-7892",
+    "address": "789 Oak Avenue, New York, NY 10003",
+    "registrationDate": "2025-03-01T14:20:00Z",
+    "status": "inactive",
+    "accountType": "customer"
+  },
+  {
+    "id": 4,
+    "username": "sarahwilson",
+    "password": "password123",
+    "name": "Sarah Wilson",
+    "email": "sarah.wilson@example.com",
+    "phone": "123-456-7893",
+    "address": "101 Pine Road, New York, NY 10004",
+    "registrationDate": "2025-03-10T11:15:00Z",
+    "status": "active",
+    "accountType": "premium"
+  },
+  {
+    "id": 5,
+    "username": "davidlee",
+    "password": "password123",
+    "name": "David Lee",
+    "email": "david.lee@example.com",
+    "phone": "123-456-7894",
+    "address": "202 Maple Lane, New York, NY 10005",
+    "registrationDate": "2025-03-15T16:30:00Z",
+    "status": "pending",
+    "accountType": "customer"
+  },
+  {
+    "id": 6,
+    "username": "abc",
+    "password": "Test@123",
+    "name": "ABC",
+    "email": "abc@gmail.com",
+    "phone": "07014151546",
+    "registrationDate": "2025-03-26",
+    "status": "active",
+    "accountType": "customer"
+  },
+  {
+    "id": 7,
+    "username": "TEST0023",
+    "password": "Test@123",
+    "name": "TEST002",
+    "email": "TEST002@gmail.com",
+    "phone": "123456789",
+    "address": "",
+    "registrationDate": "2025-03-26",
+    "status": "active",
+    "accountType": "customer"
+  },
+  {
+    "id": 8,
+    "username": "qwewqe",
+    "password": "qwewqeqwewqe",
+    "name": "qwewqe",
+    "email": "qwewqe@gmail.com",
+    "phone": "",
+    "address": "qwewqe",
+    "registrationDate": "2025-03-26T14:31:15.652031100Z",
+    "status": "active",
+    "accountType": "customer"
+  },
+  {
+    "id": 9,
+    "username": "janiya",
+    "password": "janiyajaniya",
+    "name": "janiya",
+    "email": "janiya@gmail.com",
+    "phone": "",
+    "address": "",
+    "registrationDate": "2025-03-26T14:37:25.258727100Z",
+    "status": "active",
+    "accountType": "customer"
+  },
+  {
+    "id": 14,
+    "username": "qwewqdde",
+    "password": "qwewqdde",
+    "name": "qwewqdde",
+    "email": "qwewqdde@gmail.com",
+    "phone": "0123456789",
+    "address": "street123",
+    "registrationDate": "2025-03-26",
+    "status": "active",
+    "accountType": "customer"
+  }
+]
