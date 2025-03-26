@@ -1,0 +1,196 @@
+/* Global Styles */
+:root {
+    --primary-color: #ff7675;
+    --secondary-color: #a29bfe;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+    --success-color: #55efc4;
+    --warning-color: #ffeaa7;
+    --danger-color: #ff7675;
+    --info-color: #74b9ff;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.nav-link {
+    font-weight: 500;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-color);
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 80%;
+}
+
+/* Button Styling */
+.btn {
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #e66767;
+    border-color: #e66767;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline-primary {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Feature Icons */
+.feature-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Footer Styling */
+footer {
+    background-color: var(--dark-color);
+}
+
+footer a {
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    color: white !important;
+    text-decoration: none;
+}
+
+/* User Account Dropdown */
+.avatar-circle {
+    width: 80px;
+    height: 80px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.initials {
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Progress Circle */
+.progress-circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.progress-ring-circle {
+    fill: transparent;
+    stroke: var(--primary-color);
+    stroke-width: 5;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    stroke-dasharray: 283;
+    stroke-dashoffset: 226; /* 283 - (283 * 20 / 100) for 20% */
+}
+
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+/* Hover Effects */
+.hover-white:hover {
+    color: white !important;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animated {
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}

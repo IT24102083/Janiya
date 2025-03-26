@@ -1,0 +1,35 @@
+[
+  {
+    "id": "r1001",
+    "clientId": "c1005",
+    "vendorId": "v1001",
+    "serviceId": "s1001",
+    "bookingId": "b1003",
+    "clientName": "Emily Johnson",
+    "rating": 5.0,
+    "reviewText": "Absolutely amazing service! The decorations were even more beautiful than we imagined. Everyone at our wedding was complimenting the elegant setup. Thank you for making our special day perfect!",
+    "eventName": "Wedding at Grand Palace",
+    "eventDate": 1710393600000,
+    "reviewDate": 1711065600000,
+    "vendorResponse": null,
+    "images": ["review_img1_r1001.jpg", "review_img2_r1001.jpg"]
+  },
+  {
+    "id": "r1002",
+    "clientId": "c1006",
+    "vendorId": "v1001",
+    "serviceId": "s1002",
+    "bookingId": "b1004",
+    "clientName": "Alex Thompson",
+    "rating": 4.0,
+    "reviewText": "The decor was beautiful and matched our theme perfectly. The setup was done on time and professionally. The only small issue was that we had requested a specific flower that wasn't included, but overall we were very happy.",
+    "eventName": "Reception at Beachside Resort",
+    "eventDate": 1709134800000,
+    "reviewDate": 1709739600000,
+    "vendorResponse": {
+      "text": "Thank you for your review, Alex! We're glad you were happy with our services. We apologize for the missed flower in your arrangement. We take such feedback seriously and will ensure better attention to special requests in the future. Thank you for choosing Elegant Decor!",
+      "date": 1709826000000
+    },
+    "images": ["review_img1_r1002.jpg"]
+  }
+]

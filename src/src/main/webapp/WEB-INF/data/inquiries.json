@@ -1,0 +1,35 @@
+[
+  {
+    "id": "i1001",
+    "clientId": "c1003",
+    "vendorId": "v1001",
+    "clientName": "Jessica Anderson",
+    "email": "jessica.anderson@email.com",
+    "phone": "+94765432109",
+    "serviceId": "s1001",
+    "eventDate": 1718668800000,
+    "message": "Hi, I'm interested in your floral decoration packages for our wedding on June 12th at Hilton Colombo. Could you please send me your pricing details and availability?",
+    "date": 1711151163000,
+    "read": false,
+    "response": null,
+    "quote": null
+  },
+  {
+    "id": "i1002",
+    "clientId": "c1004",
+    "vendorId": "v1001",
+    "clientName": "Daniel Wilson",
+    "email": "daniel.wilson@email.com",
+    "phone": "+94723456789",
+    "serviceId": "s1003",
+    "eventDate": 1720742400000,
+    "message": "We're planning a small intimate wedding (approx. 50 guests) and love your minimalist decor themes. Do you have any specific packages for smaller events?",
+    "date": 1711064763000,
+    "read": true,
+    "response": {
+      "text": "Thank you for your interest in our minimalist decoration packages. Yes, we do offer customized solutions for smaller events. Our minimalist package is perfect for intimate weddings and can be tailored to your specific needs. Would you like to schedule a consultation to discuss further?",
+      "date": 1711096763000
+    },
+    "quote": null
+  }
+]
